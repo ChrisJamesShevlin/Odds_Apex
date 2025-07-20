@@ -156,7 +156,7 @@ def compare_golfers():
     df.sort_values("Edge", ascending=False, inplace=True)
 
     top = tk.Toplevel(root)
-    top.title("Model vs. Market — Kelly stakes shown")
+    top.title("Odds Apex - Golf")
 
     cols = ["Name", "p_model", "Market_p", "Edge",
             "FairOdds", "LiveOdds",
@@ -208,7 +208,7 @@ def clear_list():
 # ------------------------  GUI BUILD  ------------------------
 
 root = tk.Tk()
-root.title("Odds Apex - Golf Model")
+root.title("Odds Apex - Golf")
 
 fields = [
     "Golfer Name", "Expected Wins (xwins)", "Total Shots Gained",
