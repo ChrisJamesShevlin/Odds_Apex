@@ -20,7 +20,7 @@ BLEND_MODEL      = 0.6
 TOTAL_HOLES      = 72
 COURSE_FIT_SCALE = 100
 commission       = 0.02
-KELLY_FRACTION   = 0.25
+KELLY_FRACTION   = 0.5
 
 golfer_rows = []     # stored results for Compare pop‑up
 
